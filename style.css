@@ -1,0 +1,168 @@
+* {
+
+    padding: 0;
+    background-color:#0C1728;
+}
+
+
+.card {
+    justify-content: center; 
+    height: 500px;
+    width: 310px;
+    border-radius: 15px;
+    background-color: #15273F;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 80px #011235
+    
+}
+
+.card:hover{
+    box-shadow: 0px 0px 80px #03303d
+}
+
+.image{
+    background-image: url(images/image-equilibrium.jpg);
+    background-size: 100%;
+    height: 235px;
+    width: 260px;
+    border-radius: 10px;
+    top: 4%;
+    left: 8%;
+    position: absolute;
+    transition:0.5s;
+
+}
+
+.image:hover{
+    background-image:linear-gradient(rgba(27, 239, 246, 0.2), rgba(27, 239, 246, 0.2)), url(images/image-equilibrium.jpg);
+}
+
+.image a{
+    text-decoration: none;
+}
+
+.card h1 a {
+    font-family: comfortaa;
+    top: 54%;
+    left: 5%;
+    margin: 10px;
+    position: absolute;
+    background-color: #15273F;
+    color: white;
+    font-weight: bolder;
+    font-size: 17px;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+
+.card h1 a:hover{
+    color: rgb(62, 195, 207);
+
+}
+
+.card p{
+    font-family: comfortaa;
+    top: 62%;
+    left: 5.5%;
+    margin: 10px;
+    position: absolute;
+    background-color: #15273F;
+    color: rgb(113, 145, 194);
+    font-weight: bolder;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.eth p {
+    font-family: comfortaa;
+    top: 75%;
+    left: 13.5%;
+    margin: 10px;
+    position: absolute;
+    background-color: #15273F;
+    color: rgb(20, 221, 232);
+    font-weight: bolder;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.eth img{    
+    top: 75.5%;
+    left: 6.5%;
+    margin: 10px;
+    position: absolute;
+    background-color: #15273F;
+}
+
+.time p{
+    font-family: comfortaa;
+    top: 75%;
+    left: 60.5%;
+    margin: 10px;
+    position: absolute;
+    background-color: #15273F;
+    color: rgb(20, 221, 232);
+    font-weight: bolder;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.time img{ 
+    top: 75.5%;
+    left: 51.5%;
+    margin: 10px;
+    position: absolute;
+    background-color: #15273F;
+}
+
+.line {
+    height: 1px;
+    background-color: #7ba2d6;
+    width: 80%;
+    top: 85.5%;
+    left: 9.5%;
+    position: absolute;
+  }
+
+.creator h1 {
+    font-family: comfortaa;
+    top: 88%;
+    left: 29.5%;
+    margin: 10px;
+    position: absolute;
+    background-color: #15273F;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 12px;
+    line-height: 25px;
+  }
+
+.creator a h1 {
+    font-family: comfortaa;
+    top: 88%;
+    left: 55.5%;
+    margin: 10px;
+    position: absolute;
+    background-color: #15273F;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 12px;
+    line-height: 25px;
+}
+.creator a h1:hover{
+    color: rgb(20, 221, 232);
+}
+.creator img {
+    top: 85.5%;
+    left: 7.5%;
+    margin: 10px;
+    position: absolute;
+    background-color: #15273F;
+    height: 42px;
+    width: 42px;
+    border-radius: 50px;
+    border: 2px solid rgb(115, 168, 201);
+  }
